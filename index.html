@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <a href="./index.html" class="logo-container">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/2/22/Apple_Books_%28macOS%29.svg"
+          alt="Litera brand logo"
+          id="header-img"
+        />
+
+        <span class="brand-name">Litera</span>
+      </a>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li>
+            <a href="#audio" class="nav-link">Free Audio Book</a>
+          </li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content-container">
+      <main>
+        <!-- FORM -->
+        <section class="form-section">
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <label for="email">Quality Audiobooks, Just for You</label>
+
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
+
+            <input id="submit" type="submit" value="submit" />
+          </form>
+        </section>
+
+        <!-- FEATURES -->
+        <section id="features">
+          <div class="features-container">
+            <div class="feature">
+              <ion-icon class="feature-icon" name="sparkles-outline"></ion-icon>
+
+              <div class="feature-text">
+                <p class="feature-title">Diverse Audiobook Library</p>
+
+                <p class="feature-description">
+                  Enjoy access to a vast collection of audiobooks across various
+                  genres and categories. From bestsellers to hidden gems, we
+                  have something for every listener.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature">
+              <ion-icon
+                class="feature-icon"
+                name="play-circle-outline"
+              ></ion-icon>
+
+              <div class="feature-text">
+                <p class="feature-title">Seamless Playback</p>
+
+                <p class="feature-description">
+                  Our platform offers high-quality audio streaming with
+                  customizable playback options, including adjustable speed and
+                  sleep timers, so you can tailor your listening experience.
+                </p>
+              </div>
+            </div>
+
+            <div class="feature">
+              <ion-icon
+                class="feature-icon"
+                name="cloud-download-outline"
+              ></ion-icon>
+
+              <div class="feature-text">
+                <p class="feature-title">Offline Access</p>
+
+                <p class="feature-description">
+                  Download your favorite audiobooks and listen to them anytime,
+                  anywhere, without needing an active internet connection.
+                  Perfect for travel or on-the-go listening.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="audio">
+          <div class="audio-container">
+            <iframe
+              id="video"
+              src="https://www.youtube.com/embed/QwaDvbC04mI?si=nGCCvyo6QhEPi-7F"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+
+        <section id="pricing">
+          <div class="pricing-container">
+            <div class="pricing-plan">
+              <div>
+                <div class="plan-header">
+                  <p class="plan-title">Basic Plan</p>
+
+                  <p class="plan-price">$9.99/month</p>
+                </div>
+
+                <ul class="plan-features">
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon>
+                    <span>Limited Access Catalog</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>Standard audio quality</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>1 audiobook download per month</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>Basic recommendations</span>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="plan-button">select</button>
+            </div>
+
+            <div class="pricing-plan best-plan">
+              <div>
+                <div class="plan-header">
+                  <p class="plan-title">Standard Plan</p>
+
+                  <p class="plan-price">$14.99/month</p>
+                </div>
+
+                <ul class="plan-features">
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>Broader access catalog</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>High-quality audio</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>3 downloads per month</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon>
+                    <span>Personalized recommendations</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>Offline listening</span>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="plan-button">select</button>
+            </div>
+
+            <div class="pricing-plan">
+              <div>
+                <div class="plan-header">
+                  <p class="plan-title">Premium Plan</p>
+
+                  <p class="plan-price">$19.99/month</p>
+                </div>
+
+                <ul class="plan-features">
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>Unlimited access catalog</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>Unlimited audiobook downloads</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>Premium recommendations</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon
+                    ><span>Offline listening</span>
+                  </li>
+                  <li>
+                    <ion-icon
+                      class="plan-icon"
+                      name="checkmark-outline"
+                    ></ion-icon>
+                    <span>Early access to new releases</span>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="plan-button">select</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <a
+          href="https://github.com/vinvieri"
+          target="_blank"
+          class="footer-link"
+          ><ion-icon name="logo-github" class="footer-icon"></ion-icon
+        ></a>
+
+        <a
+          href="https://www.linkedin.com/in/vinvieri/"
+          target="_blank"
+          class="footer-link"
+        >
+          <ion-icon name="logo-linkedin" class="footer-icon"></ion-icon>
+        </a>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
